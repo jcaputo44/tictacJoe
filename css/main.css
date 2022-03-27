@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: cadetblue;
+  color: beige;
+  padding: 3vmin;
+  font-size: 10vmin;
+  font-family: 'Lobster two';
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vmin;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 25vmin 25vmin 25vmin;
+  grid-template-rows: 25vmin 25vmin 25vmin 25vmin;
+  justify-content: center;
+}
+
+
+div {
+  width: 7.5rem;
+  height: 7.5rem;
+  background-color: rgb(209, 200, 27);
+  margin: 1rem;
+ 
+}
+
+#reset-btn {
+  margin-top: 65vmin;
+  padding: 1vmin;
+}
