@@ -14,11 +14,12 @@ header {
 }
 
 main {
-  height: 100%;
+  height: 100%%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5vmin;
+  margin: 0vmin;
+  background-color: beige; 
 }
 
 section {
@@ -27,7 +28,7 @@ section {
   grid-template-rows: 25vmin 25vmin 25vmin 25vmin;
   justify-content: center;
   font-family: 'lobster two';
-  font-size: 13vmin;
+  font-size: 14vmin;
   text-align: center;
   line-height: center;
   color: rgb(0, 0, 0);
@@ -36,13 +37,16 @@ section {
 
 
 div {
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 8rem;
+  height: 8rem;
   background-color: rgb(209, 200, 27);
   margin: 1rem;
+  margin-top: 2rem;
+  border-radius: 25px;
 }
 
 #reset-btn {
-  margin-top: 65vmin;
+  margin-top: 70vmin;
   padding: 1vmin;
 }
+
