@@ -26,6 +26,12 @@ section {
   grid-template-columns: 25vmin 25vmin 25vmin;
   grid-template-rows: 25vmin 25vmin 25vmin 25vmin;
   justify-content: center;
+  font-family: 'lobster two';
+  font-size: 13vmin;
+  text-align: center;
+  line-height: center;
+  color: rgb(0, 0, 0);
+  user-select: none;
 }
 
 
@@ -34,7 +40,6 @@ div {
   height: 7.5rem;
   background-color: rgb(209, 200, 27);
   margin: 1rem;
- 
 }
 
 #reset-btn {
